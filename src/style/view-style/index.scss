@@ -11,7 +11,7 @@
     }
 
     .wechat {
-      background: linear-gradient(to right, #35495e, #0cc161);
+      background: linear-gradient(to right, #0cc161, #0091ea);
     }
 
     .reactjs {
@@ -33,6 +33,13 @@
       height: 60px;
       font-size: 6rem;
       padding-right: 1rem;
+    }
+    .wechatapp {
+      width: 80%;
+      text-align: center;
+    }
+    .icon-style-left {
+      padding-right: 0rem;
     }
   }
   .hot_article {

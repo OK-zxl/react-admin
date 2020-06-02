@@ -6,6 +6,7 @@ import vue from "../../assets/images/Vue.png";
 import react from "../../assets/images/react.png";
 import wechat from "../../assets/images/wechat.png";
 import app from "../../assets/images/app.png";
+import node from "../../assets/images/Nodejs.png";
 
 // import BarEcharts from './bar.jsx'
 // import PieEcharts from './pie.jsx'
@@ -42,21 +43,27 @@ class Index extends Component {
             </div>
           </Col>
           <Col span={6}>
-            <div className="base-style wechat">
-              <img src={wechat} alt="" className="icon-style"></img>
+            <div className="base-style vuejs">
+              <img src={node} alt="" className="icon-style"></img>
               <div>
-                <span>666</span>
-                <div>小程序</div>
+                <span>999</span>
+                <div>Node</div>
               </div>
             </div>
           </Col>
           <Col span={6}>
-            <div className="base-style native">
+            <div className="base-style wechat">
               <img src={app} alt="" className="icon-style"></img>
-              <div>
-                <span>689</span>
-                <div>Native</div>
+
+              <div className="wechatapp">
+                <span>666</span>
+                <div>小程序&Native</div>
               </div>
+              <img
+                src={wechat}
+                alt=""
+                className="icon-style icon-style-left "
+              ></img>
             </div>
           </Col>
         </Row>
