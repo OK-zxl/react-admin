@@ -1,39 +1,41 @@
 .index {
-    padding: 1.6rem 0;
-    .index-header {
-        color: #fff;
-        span {
-            font-weight: 600;
-            font-size: 2rem;
-        }
-        .base-style {
-            display: flex;
-        }
-
-        .wechat {
-            background-color: #0CC161;
-        }
-
-        .qq {
-            background-color: #967adc;
-        }
-
-        .vuejs {
-            background-color: #35495E;
-            // background-color:#40B882
-        }
-
-        .weibo {
-            background-color: #fb452d;
-        }
-
-        .icon-style {
-            color: #fbfbf4b3;
-            font-size: 6rem;
-            padding-right: 1rem;
-        }
+  padding: 1.6rem 0;
+  .index-header {
+    color: #fff;
+    span {
+      font-weight: 600;
+      font-size: 2rem;
     }
-    .hot_article{
-      background:red
+    .base-style {
+      display: flex;
     }
+
+    .wechat {
+      background: linear-gradient(to right, #35495e, #0cc161);
+    }
+
+    .reactjs {
+      background: linear-gradient(to right, #35495e, #5fd3f3);
+    }
+
+    .vuejs {
+      background: linear-gradient(to right, #35495e, #40b882);
+      // background-color:
+    }
+
+    .native {
+      background: linear-gradient(to right, #35495e, #0091ea);
+    }
+
+    .icon-style {
+      color: #fbfbf4b3;
+      width: 65px;
+      height: 60px;
+      font-size: 6rem;
+      padding-right: 1rem;
+    }
+  }
+  .hot_article {
+    background: red;
+  }
 }
