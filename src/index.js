@@ -1,28 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-// import './index.css';
-
-import './stylus/index.less'
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 import { Provider } from 'react-redux'
 import store from './store'
-import {HashRouter, Route} from 'react-router-dom'
 
-const Main = () =>{
-    return (
-        <Provider store={store}>
-            <HashRouter basename='/'>
-                <Route path={`/`} component={App}></Route>
-            </HashRouter>
-        </Provider>
-    )
-}
+const AppView = (
+    <Provider store={store}>
+        <App />
+    </Provider>
+)
 
-ReactDOM.render(<Main />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(AppView, document.getElementById('root'))
