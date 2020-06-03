@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Menu, Dropdown, Icon, Layout, Avatar, Badge } from "antd";
+import { BellOutlined, GithubOutlined } from "@ant-design/icons";
 
 const { Header } = Layout;
 
@@ -43,7 +44,7 @@ const AppHeader = props => {
             href="https://github.com/OK-zxl/react-admin"
             target="_blank"
           >
-            <Icon type="github" style={{ color: "#000" }} />
+            <GithubOutlined style={{ color: "#000" }} />
           </a>
         </div>
         <div className="mr15">
@@ -52,19 +53,14 @@ const AppHeader = props => {
               href="https://github.com/OK-zxl/react-admin"
               style={{ color: "#000" }}
             >
-              <Icon type="bell" />
+              <BellOutlined />
             </a>
           </Badge>
         </div>
         <div>
           <Dropdown overlay={menu} overlayStyle={{ width: "20rem" }}>
             <div className="ant-dropdown-link">
-              <Avatar
-                icon="user"
-                src={avatar}
-                alt="avatar"
-                style={{ cursor: "pointer" }}
-              />
+              <Avatar src={avatar} alt="avatar" style={{ cursor: "pointer" }} />
             </div>
           </Dropdown>
         </div>
