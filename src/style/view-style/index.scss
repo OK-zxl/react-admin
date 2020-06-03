@@ -9,7 +9,18 @@
     .base-style {
       display: flex;
     }
-
+    .browser {
+      background: linear-gradient(to right, rgb(73, 73, 72), rgb(12, 11, 11));
+    }
+    .css {
+      background: linear-gradient(to right, rgb(238, 153, 67), #e47d16);
+    }
+    .html {
+      background: linear-gradient(to right, #140808, rgb(79, 134, 39));
+    }
+    .javascript {
+      background: linear-gradient(to right, #140808, #862828);
+    }
     .wechat {
       background: linear-gradient(to right, #0cc161, #0091ea);
     }
@@ -21,6 +32,9 @@
     .vuejs {
       background: linear-gradient(to right, #35495e, #40b882);
       // background-color:
+    }
+    .nodejs {
+      background: linear-gradient(to right, #35495e, #96b97d);
     }
 
     .native {

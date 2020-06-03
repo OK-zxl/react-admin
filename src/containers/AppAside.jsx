@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Layout, Icon } from "antd";
+import { Layout } from "antd";
 import CustomMenu from "@/components/CustomMenu";
 
 const { Sider } = Layout;
@@ -15,7 +15,7 @@ const AppAside = props => {
           href="https://github.com/OK-zxl"
           target="_blank"
         >
-          <Icon type="github" style={{ fontSize: "3.8rem", color: "#fff" }} />
+          react管理系统
         </a>
       </div>
       <CustomMenu menu={menu}></CustomMenu>
