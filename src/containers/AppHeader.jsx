@@ -1,7 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Menu, Dropdown, Icon, Layout, Avatar, Badge } from "antd";
-import { BellOutlined, GithubOutlined } from "@ant-design/icons";
+import {
+  BellOutlined,
+  GithubOutlined,
+  MenuFoldOutlined,
+  MenuUnfoldOutlined
+} from "@ant-design/icons";
 
 const { Header } = Layout;
 
@@ -31,11 +36,14 @@ const AppHeader = props => {
   return (
     <Header className="header">
       <div className="left">
-        <Icon
-          style={{ fontSize: "2rem" }}
-          onClick={menuClick}
-          type={menuToggle ? "menu-unfold" : "menu-fold"}
-        />
+        {menuToggle ? (
+          <MenuUnfoldOutlined
+            style={{ fontSize: "2rem" }}
+            onClick={menuClick}
+          />
+        ) : (
+          <MenuFoldOutlined style={{ fontSize: "2rem" }} onClick={menuClick} />
+        )}
       </div>
       <div className="right">
         <div className="mr15">

@@ -2,7 +2,7 @@ const menu = [
   {
     key: "/index",
     title: "首页",
-    icon: "home",
+    icon: "AntDesignOutlined",
     auth: [1]
   },
   {

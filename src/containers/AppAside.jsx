@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Layout } from "antd";
 import CustomMenu from "@/components/CustomMenu";
+import { AntDesignOutlined } from "@ant-design/icons";
 
 const { Sider } = Layout;
 
@@ -15,7 +16,8 @@ const AppAside = props => {
           href="https://github.com/OK-zxl"
           target="_blank"
         >
-          react管理系统
+          <AntDesignOutlined />
+          &nbsp;
         </a>
       </div>
       <CustomMenu menu={menu}></CustomMenu>

@@ -28,90 +28,86 @@ class Index extends Component {
     return (
       <Layout className="index animated fadeIn">
         <Row gutter={24} className="index-header">
-          <Col span={24}>
-            <Col span={6}>
-              <div className="base-style browser">
-                <img src={browser} alt="" className="icon-style"></img>
-                <div>
-                  <span>999</span>
-                  <div>浏览器</div>
-                </div>
+          <Col span={6}>
+            <div className="base-style browser">
+              <img src={browser} alt="" className="icon-style"></img>
+              <div>
+                <span>999</span>
+                <div>浏览器</div>
               </div>
-            </Col>
-            <Col span={6}>
-              <div className="base-style css">
-                <img src={css} alt="" className="icon-style"></img>
-                <div>
-                  <span>366</span>
-                  <div>CSS</div>
-                </div>
+            </div>
+          </Col>
+          <Col span={6}>
+            <div className="base-style css">
+              <img src={css} alt="" className="icon-style"></img>
+              <div>
+                <span>366</span>
+                <div>CSS</div>
               </div>
-            </Col>
-            <Col span={6}>
-              <div className="base-style html">
-                <img src={html} alt="" className="icon-style"></img>
-                <div>
-                  <span>999</span>
-                  <div>HTML</div>
-                </div>
+            </div>
+          </Col>
+          <Col span={6}>
+            <div className="base-style html">
+              <img src={html} alt="" className="icon-style"></img>
+              <div>
+                <span>999</span>
+                <div>HTML</div>
               </div>
-            </Col>
-            <Col span={6}>
-              <div className="base-style javascript">
-                <img src={js} alt="" className="icon-style"></img>
+            </div>
+          </Col>
+          <Col span={6}>
+            <div className="base-style javascript">
+              <img src={js} alt="" className="icon-style"></img>
 
-                <div>
-                  <span>666</span>
-                  <div>Javascript</div>
-                </div>
+              <div>
+                <span>666</span>
+                <div>Javascript</div>
               </div>
-            </Col>
+            </div>
           </Col>
         </Row>
         <Row gutter={24} className="index-header">
-          <Col span={24}>
-            <Col span={6}>
-              <div className="base-style vuejs">
-                <img src={vue} alt="" className="icon-style"></img>
-                <div>
-                  <span>999</span>
-                  <div>VUE</div>
-                </div>
+          <Col span={6}>
+            <div className="base-style vuejs">
+              <img src={vue} alt="" className="icon-style"></img>
+              <div>
+                <span>999</span>
+                <div>VUE</div>
               </div>
-            </Col>
-            <Col span={6}>
-              <div className="base-style reactjs">
-                <img src={react} alt="" className="icon-style"></img>
-                <div>
-                  <span>366</span>
-                  <div>REACT</div>
-                </div>
+            </div>
+          </Col>
+          <Col span={6}>
+            <div className="base-style reactjs">
+              <img src={react} alt="" className="icon-style"></img>
+              <div>
+                <span>366</span>
+                <div>REACT</div>
               </div>
-            </Col>
-            <Col span={6}>
-              <div className="base-style nodejs">
-                <img src={node} alt="" className="icon-style"></img>
-                <div>
-                  <span>999</span>
-                  <div>Node</div>
-                </div>
+            </div>
+          </Col>
+          <Col span={6}>
+            <div className="base-style nodejs">
+              <img src={node} alt="" className="icon-style"></img>
+              <div>
+                <span>999</span>
+                <div>Node</div>
               </div>
-            </Col>
-            <Col span={6}>
-              <div className="base-style wechat">
-                <img src={app} alt="" className="icon-style"></img>
+            </div>
+          </Col>
+          <Col span={6}>
+            <div className="base-style wechat">
+              <img src={app} alt="" className="icon-style"></img>
 
-                <div className="wechatapp">
-                  <span>666</span>
-                  <div>小程序&Native</div>
-                </div>
-                <img
-                  src={wechat}
-                  alt=""
-                  className="icon-style icon-style-left "
-                ></img>
+              <div className="wechatapp">
+                <span>666</span>
+                <div>小程序&Native</div>
               </div>
-            </Col>
+              <img
+                src={wechat}
+                alt=""
+                className="icon-style icon-style-left "
+              ></img>
+            </div>
           </Col>
         </Row>
         <Row gutter={24}>
